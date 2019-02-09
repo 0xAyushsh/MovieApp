@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/welcomeText"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/image_the_dark_knight"
+        android:layout_width="119dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="startTheDarkKnight"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="182dp"
+        app:srcCompat="@drawable/the_dark_knight" />
+
+    <ImageView
+        android:id="@+id/image_dunkirk"
+        android:layout_width="118dp"
+        android:layout_height="92dp"
+        android:onClick="startDunkirk"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/image_the_dark_knight"
+        android:layout_marginEnd="54dp"
+        app:srcCompat="@drawable/dunkirkk" />
+
+    <TextView
+        android:id="@+id/suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/welcome"
+        android:layout_marginBottom="152dp"
+        android:text="@string/suggestionText"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/welcome"
+        android:layout_below="@+id/suggestionTextBox"
+        android:onClick="toSuggest"
+        android:text="@string/buttonSuggest" />
+
+    <EditText
+        android:id="@+id/suggestionTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/suggestion"
+        android:hint="@string/writeSuggest"
+        android:layout_marginTop="-152dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>

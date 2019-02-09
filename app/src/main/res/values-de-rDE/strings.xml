@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="themeText">" Spielen Sie das offizielle Theme-Lied"</string>
+    <string name="playText">" abspielen"</string>
+    <string name="rateText">Bewerte diesen Film:</string>
+    <string name="readMoreText">" Klicken Sie, um mehr über diesen Film zu lesen"</string>
+    <string name="submitText">einreichen</string>
+    <string name="pauseText">Pause</string>
+    <string name="playToast">" Musik spielt"</string>
+    <string name="pauseToast">" Musik ist pausiert"</string>
+    <string name="ratingPresentToast">" Du hast diesen Film bewertet:"</string>
+    <string name="ratingToast2">Sterne. Vorherige Bewertung war:</string>
+    <string name="welcomeText">" Willkommen, bitte klicken Sie auf den Film"</string>
+    <string name="suggestionText">" Für einen Vorschlag klicken Sie hier"</string>
+    <string name="webpageDunkirk">https://de.wikipedia.org/wiki/Dunkirk_(2017_film)</string>
+    <string name="webpageTheDarkKnight">https://de.wikipedia.org/wiki/The_Dark_Knight_(film)</string>
+    <string name="buttonSuggest">" Taste"</string>
+    <string name="writeSuggest">" Hier schreiben"</string>
+</resources>
